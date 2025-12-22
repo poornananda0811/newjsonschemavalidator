@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class SchemaValidator {
-
+// this is my comment line
         @Test
         public void validateUserSchema() {
             RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
