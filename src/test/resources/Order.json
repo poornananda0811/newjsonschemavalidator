@@ -1,0 +1,44 @@
+{
+  "orderId": "ORD-98765",
+  "customer": {
+    "customerId": "CUST-101",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "billingAddress": {
+      "street": "21 Baker Street",
+      "city": "London",
+      "zipCode": "NW1 6XE",
+      "country": "UK"
+    },
+    "shippingAddress": {
+      "street": "21 Baker Street",
+      "city": "London",
+      "zipCode": "NW1 6XE",
+      "country": "UK"
+    }
+  },
+  "items": [
+    {
+      "itemId": "ITEM-1001",
+      "product": {
+        "productId": "P-001",
+        "name": "Gaming Mouse",
+        "price": 49.99
+      },
+      "quantity": 2,
+      "totalPrice": 99.98,
+      "shippingAddress": {
+        "street": "21 Baker Street",
+        "city": "London",
+        "zipCode": "NW1 6XE",
+        "country": "UK"
+      }
+    }
+  ],
+  "payment": {
+    "method": "Credit Card",
+    "currency": "GBP",
+    "amountPaid": 399.94
+  },
+  "orderStatus": "PROCESSING"
+}
