@@ -19,7 +19,7 @@ public class SchemaValidator {
                     .statusCode(200)
                     .body(matchesJsonSchemaInClasspath("myrequiredschema.json"));
         }
-//This is my new comment line
+//This is my new comment line.Updating my comment line
         @Test
         public void validateIncorrectSchema() {
             RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
